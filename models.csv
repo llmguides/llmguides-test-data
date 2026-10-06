@@ -1,0 +1,4 @@
+model,product,provider,first_tested,status
+chatgpt,ChatGPT,OpenAI,,active
+claude,Claude,Anthropic,,active
+gemini,Gemini,Google,,active
