@@ -8,7 +8,7 @@ The website doesn't compute anything you can't recompute from these files.
 
 1. **Fixed prompts.** Each test has a `test.md` with its prompts and scoring guide, written before the first run. A prompt is never reworded; a changed prompt gets a new number.
 2. **Same conditions for every model.** A paid plan (listed per test date in `models.csv`), the model picked by name, and a fresh chat for every prompt. Memory, chat history, custom instructions and connected apps are off. Web search is on. Everything else stays at the app's defaults. All answers are collected within two days.
-3. **Answers saved exactly.** Each answer is copied with the app's copy button and saved unchanged, typos included, with the app's share link and an archived copy of it.
+3. **Answers saved exactly.** Each answer is copied with the app's copy button and saved unchanged, typos included, with the app's share link where the app allows sharing.
 4. **Answers published before scoring.** The commit history shows the answers were not changed after scoring.
 5. **Blind scoring.** Answers are scored as A, B and C, in a shuffled order, without knowing which model wrote which, against the rubric in `rubric/rubric-v1.md`.
 6. **Scores published.** The scores follow, with short notes on what worked and what didn't in each answer. Where a test uses a fact-check, a checklist or an answer key, every check is published in `checks.csv`.
@@ -28,7 +28,7 @@ tests/
     YYYY-MM-DD/    one folder per test date (the first day of the run)
       models.csv   exact model versions, plans, run dates
       prices.csv   API prices used for cost (US dollars per million tokens)
-      outputs.csv  one row per answer: time, word and token counts, share and archive links
+      outputs.csv  one row per answer: time, word and token counts, share links
       scores.csv   one row per score (1–5)
       checks.csv   the evidence behind checked scores (only in tests that have them)
       analysis.csv the "what worked / what didn't" notes shown on the page

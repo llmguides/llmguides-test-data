@@ -1,0 +1,3 @@
+### Q4 2025 Executive Summary
+
+Q4 2025 delivered strong revenue growth of **12% QoQ to $4.2M**, supported by a major $800K ARR enterprise contract with Acme Corp. However, **operating costs rose 18% to $3.1M**, outpacing revenue growth and pressuring margins. Customer indicators weakened: new customer acquisition declined 5% to 340, churn increased to 4.2%, and NPS fell from 78 to 72. Headcount expanded from 71 to 85, while two senior engineering departures introduced execution risks. **Board priorities** should include controlling cost growth, improving customer retention and satisfaction, and mitigating engineering talent risks while sustaining enterprise sales momentum and protecting profitability.
