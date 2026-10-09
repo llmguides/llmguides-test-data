@@ -1,1 +1,88 @@
 prompt,model,type,text
+p01,chatgpt,worked,Cites a checkable Gallup figure: 26% of remote-capable U.S. employees work fully remotely and 52% are hybrid
+p01,chatgpt,worked,"149 words, on target, with a confident tone and a closing promise of practical techniques and habits"
+p01,chatgpt,didnt,"A source line after the intro has to be deleted, and the statistic only loosely supports a productivity argument"
+p01,chatgpt,didnt,"Leans twice on the same 'isn't X, it's Y' contrast and bolds the whole closing sentence"
+p01,claude,worked,"Reports a 2024 Nature study of about 1,600 Trip.com employees correctly, including resignations down by a third"
+p01,claude,worked,"Tight arc from situation to evidence to a reframing, ending on a concrete three-part promise"
+p01,claude,worked,"151 words, on target, confident without lecturing"
+p01,claude,didnt,A word count and a caveat after the intro have to be deleted before publishing
+p01,claude,didnt,"The cited study covers hybrid work, not fully remote work, as its own note concedes"
+p01,gemini,worked,"Opens on this reader's situation: 'two years in, the novelty has worn off'"
+p01,gemini,worked,"141 words, within range, ending with a specific promise on calendars, focus time and boundaries"
+p01,gemini,didnt,"The 'over 80%' and 'nearly two hours a day' figures have no named source, and no trustworthy source was found"
+p01,gemini,didnt,Vague coinages such as 'digital drift' and 'communication churn' blur the point
+p02,chatgpt,worked,"Revised schedule lists the original date, the new date and an interim progress update"
+p02,chatgpt,worked,"173 words, under the 200 limit, professional and focused on keeping the relationship"
+p02,chatgpt,didnt,"The news comes after two lines of pleasantries, and stock closing sentences pad the end"
+p02,chatgpt,didnt,Mitigation stays vague ('actively coordinating') and there is no concrete next step
+p02,claude,worked,"States the delay and the vendor cause in the first lines, with a short, honest reason"
+p02,claude,worked,"Milestone timeline, parallel work to limit the impact, weekly updates and an offer of a call"
+p02,claude,worked,"173 words of email, under the 200 limit"
+p02,claude,didnt,A note to the user after the signature has to be removed before sending
+p02,gemini,didnt,Asked for permission to turn on the Gmail app instead of drafting the email
+p02,gemini,didnt,"No email was drafted, so the answer scores 1 on every criterion"
+p03,chatgpt,worked,"Price stated correctly as $299, with no invented reviews, awards or offers"
+p03,chatgpt,worked,Three numbered features tied to travel moments such as long-haul flights and layovers
+p03,chatgpt,didnt,Repetitive: 'journey' recurs and three slogan-style lines pad a short piece
+p03,chatgpt,didnt,"The battery feature gives no specifics, and the headline-style copy would need tightening"
+p03,claude,worked,"Three benefit-led bullets tied to travel, such as ten minutes of charging at the gate"
+p03,claude,worked,"Easy to scan: hook, three bullets, price and call to action in 123 words"
+p03,claude,didnt,A closing note about the word count and placeholder specs has to be deleted
+p03,gemini,worked,"109 words, well under the limit, with three features each tied to a traveler's moment"
+p03,gemini,worked,Benefit-led and ready to paste: 'Fly across oceans without reaching for a cord'
+p03,gemini,worked,"Short hook, three clear bullets and a one-line call to action"
+p04,chatgpt,worked,Builds tension with a second message: 'And I'm standing right behind you.'
+p04,chatgpt,worked,"130 words in one paragraph with sight, smell and sound, and an unnamed 'lone figure'"
+p04,chatgpt,didnt,Relies on a stock image of neon blurred into pools of color
+p04,claude,worked,"Layers several senses: wet asphalt, old cigarette smoke, yakitori char, soaked stockings"
+p04,claude,worked,"The message comes from a number deleted three years ago, four words long: 'Don't take the train.'"
+p04,claude,worked,"136 words in one paragraph, and the character stays unnamed"
+p04,claude,didnt,Opens on a stock image: crosswalks turned into mirrors and bleeding neon
+p04,gemini,worked,"Strong sound and smell: rain on vinyl, the Yamanote line overhead, garlic from a ramen counter"
+p04,gemini,worked,"128 words in one paragraph, set in rainy Shibuya, with an unnamed character"
+p04,gemini,didnt,Opens on a stock image of neon bleeding across the asphalt
+p05,chatgpt,worked,"Every figure correct, including NPS from 78 to 72 and headcount from 71 to 85"
+p05,chatgpt,worked,Draws the key point: costs up 18% are outpacing revenue growth of 12%
+p05,chatgpt,worked,"99 words, ending with board priorities, ready to go on a slide"
+p05,chatgpt,didnt,"One dense block, and the final sentence stacks five priorities"
+p05,claude,worked,Correctly derives an operating margin drop from about 30% to 26% and a 20% headcount rise
+p05,claude,worked,"Clear structure: headline, growth, customer health, then three board priorities"
+p05,claude,didnt,"Says the margin fall was 'driven mainly by' headcount, a cause the data doesn't show"
+p05,claude,didnt,A note about the margin calculation after the summary has to be deleted before presenting
+p05,gemini,worked,"All figures correct, in a clean structure of good news, concerns and outlook"
+p05,gemini,worked,"Exactly 100 words, in a tone that fits a board presentation"
+p05,gemini,didnt,"States 'Leadership is prioritizing cost stabilization', an action that isn't in the data"
+p05,gemini,didnt,Leaves out the previous NPS (78) and headcount (71)
+p06,chatgpt,worked,"Three short, readable hooks on how AI is changing hiring"
+p06,chatgpt,worked,Each hook stays within the 1 to 2 sentence limit
+p06,chatgpt,didnt,"Hook 1 opens with 'AI can screen hundreds of resumes in minutes', which is not a data point"
+p06,chatgpt,didnt,A 'My pick' note after the hooks has to be deleted
+p06,claude,worked,Hook 1 pairs two cited survey figures: nearly 9 in 10 HR teams versus about 1 in 4 job seekers
+p06,claude,worked,"Each hook is 1 or 2 sentences, in the requested order: data, contrarian take, personal observation"
+p06,claude,didnt,"A lead-in, a source paragraph and a source list have to be deleted"
+p06,claude,didnt,Sources are vendor aggregator pages rather than the original surveys
+p06,gemini,worked,"Three distinct angles, ending on a sharp question about 'the five best prompt engineers'"
+p06,gemini,worked,Each hook is two sentences and matches its requested approach
+p06,gemini,didnt,"Hook 1 says over 75% of resumes are rejected before a human sees them, a widely debunked figure"
+p07,chatgpt,worked,Accurate in plain words: DNS links website names to the numerical addresses computers use
+p07,chatgpt,worked,Ends with one concrete reason: wrong DNS settings during a redesign launch or host switch can take the site offline
+p07,chatgpt,didnt,"Heavy headings and one-line paragraphs pad a short piece, and store and phonebook analogies overlap"
+p07,claude,worked,Carries one contacts-list analogy through in plain words
+p07,claude,worked,Ends with advice to confirm who will handle the DNS change before planning a launch date
+p07,claude,worked,Explains that DNS also decides where company email is delivered
+p07,claude,didnt,"207 words, 7 over the 200-word limit"
+p07,gemini,worked,"Carries the contacts-list analogy cleanly from phone to internet, in 165 words"
+p07,gemini,worked,Ties the reason to the manager's work: paid ad traffic landing on error pages
+p07,gemini,didnt,Leaves terms like 'web servers' and 'misconfigured' unexplained despite the no-jargon brief
+p08,chatgpt,worked,"All four parts present and within their word limits (6, 23, 5/5/7 and 4 words)"
+p08,chatgpt,worked,No invented numbers or offers
+p08,chatgpt,didnt,"Little sense of urgency, and benefits stay generic, such as 'Get hours back every week.'"
+p08,chatgpt,didnt,"Headline and subheadline both end on growing the business, which repeats"
+p08,claude,worked,Names a specific pain from the reader's inbox: the 'does Tuesday work?' email
+p08,claude,worked,"All parts within limits (6, 25, 7/7/8 and 4 words), benefit-led and urgent without pressure"
+p08,claude,didnt,An explanatory note after the CTA text has to be deleted
+p08,gemini,worked,"Headline, subheadline, three bullets and CTA all present and easy to scan"
+p08,gemini,worked,"Benefit-led, with calm urgency ('starting today')"
+p08,gemini,didnt,"Claims 'Stop Losing 5 Hours Every Week' and offers 'for Free', and neither is in the brief"
+p08,gemini,didnt,"'Reclaim' repeats in a bullet and the CTA, and 'no-shows eliminated instantly' overpromises"
