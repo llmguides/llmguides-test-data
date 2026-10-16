@@ -4,6 +4,14 @@ Newest first. Every correction, new test, new model, rubric change and series br
 
 Entry types: `data`, `correction`, `new-test`, `new-model`, `new-scorer`, `rubric`, `series-break`, `format`.
 
+## 2026-10-16 · test-010 · raw outputs published
+Type: data
+Test 010 (Instruction following), date 2026-10-16: 24 raw answers from ChatGPT, Claude and Gemini, published before scoring.
+
+## 2026-10-16 · test-010 · new test
+Type: new-test
+Test 010 (Instruction following): 8 prompts. Instruction following is set by a checklist per prompt (rubric §7.1; a missed critical item caps it at 2) and counts ×2; Accuracy, Completeness, Usefulness and Clarity are scored 1–5.
+
 ## 2026-10-09 · format · test date files
 Type: format
 outputs.csv: share_url and archive_url may be empty when the app could not create a share link; notes.md says why. analysis.csv: an answer may have no "worked" note when it is a refusal scored 1 on every criterion, and no "didn't" note when every score is 5.
