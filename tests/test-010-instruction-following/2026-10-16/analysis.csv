@@ -1,1 +1,75 @@
 prompt,model,type,text
+p01,chatgpt,worked,"Exactly 75 words in a single paragraph, as required."
+p01,chatgpt,worked,"Names concrete benefits: vocabulary, concentration, empathy, stress relief and critical thinking."
+p01,chatgpt,worked,Clear order with no padding or repetition.
+p01,claude,worked,"Exactly 75 words in a single paragraph, as required."
+p01,claude,worked,"Covers vocabulary, focus, memory, empathy, stress and curiosity."
+p01,claude,worked,"Every sentence after the opener adds a new benefit, ending on a summary line that starts with 'Ultimately'."
+p01,gemini,worked,"Exactly 75 words in a single paragraph, with nothing around it to delete."
+p01,gemini,worked,"Covers vocabulary, focus, empathy, stress and memory."
+p01,gemini,worked,"Moves from mental to emotional benefits before a closing line, with no filler."
+p02,chatgpt,worked,Six numbered steps trace the full chain from air and gas to turning wheels.
+p02,chatgpt,worked,"92 words, no names of engine parts and no word over three syllables."
+p02,chatgpt,didnt,'pushes a part down' and 'other parts spin' are too vague for a child to picture.
+p02,claude,worked,"Swaps technical terms for 'metal stick' and 'rod', in 91 words with no word over three syllables."
+p02,claude,worked,'like popcorn popping' gives a child a picture to hold.
+p02,claude,worked,"Short sentences in a clear cause-and-effect order, from the spark to the turning wheels."
+p02,claude,didnt,"Never mentions air going into the engine, only gas."
+p02,gemini,worked,Opens with a bike-legs comparison a 7-year-old can follow.
+p02,gemini,worked,"'strong cups', 'metal blocks' and 'long bar' stand in for cylinder, piston and crankshaft."
+p02,gemini,worked,"Covers fuel, air, the spark, the push and the wheels in 99 words."
+p03,chatgpt,worked,"All five tips follow the emoji, bold capitals, dash and one-sentence format, with nothing around them."
+p03,chatgpt,worked,Each explanation is one plain sentence ending with a period.
+p03,chatgpt,didnt,"Reuses the prompt's example tip, BATCH SIMILAR TASKS, and the time-blocking tip overlaps the distractions tip."
+p03,claude,worked,"All five tips follow the emoji, bold capitals, dash and one-sentence format exactly."
+p03,claude,worked,Describes the eat-the-frog method and the two-minute rule correctly.
+p03,claude,didnt,"The first tip copies the prompt's example word for word, so only four tips are new."
+p03,gemini,worked,"Five distinct tips, all in the exact emoji, bold capitals and dash format."
+p03,gemini,worked,Concrete actions such as 'Put your phone in another room' make the tips ready to use.
+p03,gemini,worked,Describes the Pomodoro 25/5 intervals and the two-minute rule correctly.
+p04,chatgpt,worked,"Exactly seven reasons, each in two sentences, with the reason stated first."
+p04,chatgpt,worked,"Its statements are accurate, including the uses of Django, Flask and the Requests library."
+p04,chatgpt,didnt,"Examples are hypotheticals such as 'you can write a simple calculator program', not specific real-world uses."
+p04,chatgpt,didnt,"Every second sentence opens with 'For example, you can', which reads mechanically."
+p04,claude,worked,"Exactly seven bulleted reasons, each in two sentences with the reason first."
+p04,claude,worked,"Every example names something real and checkable, such as Instagram, MIT 6.0001 and the Event Horizon Telescope."
+p04,claude,worked,A consistent reason-then-example pattern with no filler.
+p04,gemini,worked,"Exactly seven bulleted reasons, each a bold reason followed by one example sentence."
+p04,gemini,worked,"Named examples include Netflix, Instagram with Django and NASA with Astropy."
+p04,gemini,didnt,"The JPMorgan example claims thousands of spreadsheets processed in seconds, a scale the answer gives no source for."
+p04,gemini,didnt,"Ties MicroPython to Raspberry Pi boards in general, though it runs on the Pico, not the standard Pi boards."
+p05,chatgpt,worked,98 words with none of the six excluded topics.
+p05,chatgpt,worked,"Names real alternatives: Belleville street art, Montmartre, the catacombs and the Luxembourg Gardens."
+p05,chatgpt,didnt,"Some angles stay generic, such as 'charming lanes', 'bustling cafés' and 'authentic French cuisine'."
+p05,chatgpt,didnt,Closes on padding like 'endless opportunities for discovery' and 'beyond the ordinary'.
+p05,claude,worked,Exactly 100 words with none of the six excluded topics.
+p05,claude,worked,"Six specific stops, including the covered passages, Buttes-Chaumont and a Latin Quarter jazz cellar."
+p05,claude,worked,"Each sentence after the opener adds a new stop, and the piece ends on a strong closing line."
+p05,gemini,worked,99 words with none of the six excluded topics.
+p05,gemini,worked,"A morning-to-night structure built on Belleville, the covered passages and Canal Saint-Martin."
+p05,gemini,worked,Specific details such as vintage stamp dealers and Comté cheese make it ready to post.
+p06,chatgpt,worked,"Uses three project management terms correctly: critical path, scope creep and sprint."
+p06,chatgpt,worked,"Keeps the pirate voice from 'Arrr' to 'Fair winds', in 92 words with one closing hashtag."
+p06,chatgpt,didnt,"The closing advice, 'communicate clearly, tackle storms early', is generic and thin on pirate framing."
+p06,claude,worked,Pirate imagery carries the advice: guard against scope creep 'like ye'd guard the rum barrel'.
+p06,claude,worked,"Uses critical path, scope creep and retrospective correctly in 94 words."
+p06,claude,worked,"A First, Second, Third structure that is easy to follow, ending with one hashtag."
+p06,gemini,worked,"Tells a story from near-disaster to fix, with imagery like 'clapped those distractions in irons'."
+p06,gemini,worked,Keeps the pirate voice from 'Avast' to 'walk the plank' in 97 words.
+p06,gemini,worked,"Includes three project management terms: scope creep, critical path and kickoff meeting."
+p07,chatgpt,worked,"Only the JSON object, with no code block or text around it."
+p07,chatgpt,worked,"All six fields with the right types, and Italian dishes for an Italian restaurant."
+p07,claude,worked,"Only the JSON object, compact and valid, with no code block or text around it."
+p07,claude,worked,"All six fields with the right types, and Carbonara, Margherita and Tiramisu fit the cuisine."
+p07,gemini,worked,"Only the JSON object, readable and valid, with no code block or text around it."
+p07,gemini,worked,"All six fields filled, with a 4.7 rating and dishes that fit an Italian restaurant."
+p08,chatgpt,worked,"Five sentences starting with A to E, with nothing around them."
+p08,chatgpt,worked,Figures such as CO2 up over 50% and about 20 cm of sea-level rise in 1901–2018 match standard figures.
+p08,chatgpt,didnt,"The third sentence runs 13 words, one over the 12-word limit."
+p08,chatgpt,didnt,"Sentences 2 and 4 contain no specific number, date or name."
+p08,claude,worked,"Five sentences from A to E, the longest 11 words, with nothing around them."
+p08,claude,worked,"Each sentence pairs a date with a name or figure, such as Mauna Loa passing 400 ppm in 2013."
+p08,claude,worked,"All five facts check out, from Eunice Foote in 1856 to 2024 passing 1.5°C."
+p08,gemini,worked,"Five sentences from A to E, none over 12 words, with nothing around them."
+p08,gemini,worked,"Every sentence has a number or date, such as 420 ppm in 2023."
+p08,gemini,worked,"All five facts hold, including roughly 10 million hectares of forest lost each year."

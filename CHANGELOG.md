@@ -4,6 +4,10 @@ Newest first. Every correction, new test, new model, rubric change and series br
 
 Entry types: `data`, `correction`, `new-test`, `new-model`, `new-scorer`, `rubric`, `series-break`, `format`.
 
+## 2026-10-17 · test-010 · scores and analysis published
+Type: data
+Test 010 (Instruction following), date 2026-10-16: 120 scores (24 answers, 5 criteria each), 123 checklist results and the notes on what worked and what didn't in each answer.
+
 ## 2026-10-17 · test-008 · raw outputs published
 Type: data
 Test 008 (Hallucination Rate), date 2026-10-16: 36 raw answers from ChatGPT, Claude and Gemini, published before scoring.

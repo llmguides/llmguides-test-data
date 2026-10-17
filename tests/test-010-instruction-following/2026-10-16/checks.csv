@@ -1,1 +1,124 @@
 prompt,model,run,criterion,method,item,result,source_url,note
+p01,chatgpt,1,instruction_following,checklist,c1,met,,75 words of requested content (count-words)
+p01,chatgpt,1,instruction_following,checklist,c2,met,,1 paragraph
+p01,chatgpt,1,instruction_following,checklist,c3,met,,
+p01,claude,1,instruction_following,checklist,c1,met,,75 words of requested content (count-words)
+p01,claude,1,instruction_following,checklist,c2,met,,1 paragraph
+p01,claude,1,instruction_following,checklist,c3,met,,
+p01,gemini,1,instruction_following,checklist,c1,met,,75 words of requested content (count-words)
+p01,gemini,1,instruction_following,checklist,c2,met,,1 paragraph
+p01,gemini,1,instruction_following,checklist,c3,met,,
+p02,chatgpt,1,instruction_following,checklist,c1,met,,92 words of requested content (count-words)
+p02,chatgpt,1,instruction_following,checklist,c2,met,,
+p02,chatgpt,1,instruction_following,checklist,c3,met,,
+p02,chatgpt,1,instruction_following,checklist,c4,met,,
+p02,claude,1,instruction_following,checklist,c1,met,,91 words of requested content (count-words)
+p02,claude,1,instruction_following,checklist,c2,met,,
+p02,claude,1,instruction_following,checklist,c3,met,,
+p02,claude,1,instruction_following,checklist,c4,met,,
+p02,gemini,1,instruction_following,checklist,c1,met,,99 words of requested content (count-words)
+p02,gemini,1,instruction_following,checklist,c2,met,,
+p02,gemini,1,instruction_following,checklist,c3,met,,
+p02,gemini,1,instruction_following,checklist,c4,met,,
+p03,chatgpt,1,instruction_following,checklist,c1,met,,5 tips
+p03,chatgpt,1,instruction_following,checklist,c2,met,,
+p03,chatgpt,1,instruction_following,checklist,c3,met,,all 5 titles in capitals
+p03,chatgpt,1,instruction_following,checklist,c4,met,,judged from the screenshot
+p03,chatgpt,1,instruction_following,checklist,c5,met,,
+p03,chatgpt,1,instruction_following,checklist,c6,met,,
+p03,chatgpt,1,instruction_following,checklist,c7,met,,nothing else
+p03,claude,1,instruction_following,checklist,c1,met,,5 tips
+p03,claude,1,instruction_following,checklist,c2,met,,
+p03,claude,1,instruction_following,checklist,c3,met,,all 5 titles in capitals
+p03,claude,1,instruction_following,checklist,c4,met,,judged from the screenshot
+p03,claude,1,instruction_following,checklist,c5,met,,
+p03,claude,1,instruction_following,checklist,c6,met,,
+p03,claude,1,instruction_following,checklist,c7,met,,nothing else
+p03,gemini,1,instruction_following,checklist,c1,met,,5 tips
+p03,gemini,1,instruction_following,checklist,c2,met,,
+p03,gemini,1,instruction_following,checklist,c3,met,,all 5 titles in capitals
+p03,gemini,1,instruction_following,checklist,c4,met,,judged from the screenshot
+p03,gemini,1,instruction_following,checklist,c5,met,,
+p03,gemini,1,instruction_following,checklist,c6,met,,
+p03,gemini,1,instruction_following,checklist,c7,met,,nothing else
+p04,chatgpt,1,instruction_following,checklist,c1,met,,checked by hand
+p04,chatgpt,1,instruction_following,checklist,c2,met,,
+p04,chatgpt,1,instruction_following,checklist,c3,met,,
+p04,chatgpt,1,instruction_following,checklist,c4,not_met,,
+p04,chatgpt,1,instruction_following,checklist,c5,met,,changed by hand
+p04,claude,1,instruction_following,checklist,c1,met,,7 reasons
+p04,claude,1,instruction_following,checklist,c2,met,,
+p04,claude,1,instruction_following,checklist,c3,met,,
+p04,claude,1,instruction_following,checklist,c4,met,,
+p04,claude,1,instruction_following,checklist,c5,met,,"7 bullet points, no numbering"
+p04,gemini,1,instruction_following,checklist,c1,met,,7 reasons
+p04,gemini,1,instruction_following,checklist,c2,met,,
+p04,gemini,1,instruction_following,checklist,c3,met,,
+p04,gemini,1,instruction_following,checklist,c4,met,,
+p04,gemini,1,instruction_following,checklist,c5,met,,"7 bullet points, no numbering"
+p05,chatgpt,1,instruction_following,checklist,c1,met,,98 words of requested content (count-words)
+p05,chatgpt,1,instruction_following,checklist,c2,met,,checked by hand
+p05,chatgpt,1,instruction_following,checklist,c3,met,,
+p05,chatgpt,1,instruction_following,checklist,c4,met,,
+p05,claude,1,instruction_following,checklist,c1,met,,100 words of requested content (count-words)
+p05,claude,1,instruction_following,checklist,c2,met,,none of the excluded items named
+p05,claude,1,instruction_following,checklist,c3,met,,
+p05,claude,1,instruction_following,checklist,c4,met,,
+p05,gemini,1,instruction_following,checklist,c1,met,,99 words of requested content (count-words)
+p05,gemini,1,instruction_following,checklist,c2,met,,checked by hand
+p05,gemini,1,instruction_following,checklist,c3,met,,
+p05,gemini,1,instruction_following,checklist,c4,met,,
+p06,chatgpt,1,instruction_following,checklist,c1,met,,
+p06,chatgpt,1,instruction_following,checklist,c2,met,,
+p06,chatgpt,1,instruction_following,checklist,c3,met,,
+p06,chatgpt,1,instruction_following,checklist,c4,met,,92 words of requested content (count-words)
+p06,chatgpt,1,instruction_following,checklist,c5,met,,"1 hashtag, at the end"
+p06,chatgpt,1,instruction_following,checklist,c6,met,,not used
+p06,chatgpt,1,instruction_following,checklist,c7,met,,
+p06,claude,1,instruction_following,checklist,c1,met,,
+p06,claude,1,instruction_following,checklist,c2,met,,
+p06,claude,1,instruction_following,checklist,c3,met,,
+p06,claude,1,instruction_following,checklist,c4,met,,94 words of requested content (count-words)
+p06,claude,1,instruction_following,checklist,c5,met,,"1 hashtag, at the end"
+p06,claude,1,instruction_following,checklist,c6,met,,not used
+p06,claude,1,instruction_following,checklist,c7,met,,
+p06,gemini,1,instruction_following,checklist,c1,met,,
+p06,gemini,1,instruction_following,checklist,c2,met,,
+p06,gemini,1,instruction_following,checklist,c3,met,,
+p06,gemini,1,instruction_following,checklist,c4,met,,97 words of requested content (count-words)
+p06,gemini,1,instruction_following,checklist,c5,met,,"1 hashtag, at the end"
+p06,gemini,1,instruction_following,checklist,c6,met,,not used
+p06,gemini,1,instruction_following,checklist,c7,met,,
+p07,chatgpt,1,instruction_following,checklist,c1,met,,only the JSON object; it parses
+p07,chatgpt,1,instruction_following,checklist,c2,met,,judged from the screenshot
+p07,chatgpt,1,instruction_following,checklist,c3,met,,exactly the 6 fields
+p07,chatgpt,1,instruction_following,checklist,c4,met,,types as asked
+p07,chatgpt,1,instruction_following,checklist,c5,met,,"price_range ""$$"""
+p07,chatgpt,1,instruction_following,checklist,c6,met,,3 top_dishes
+p07,claude,1,instruction_following,checklist,c1,met,,only the JSON object; it parses
+p07,claude,1,instruction_following,checklist,c2,met,,judged from the screenshot
+p07,claude,1,instruction_following,checklist,c3,met,,exactly the 6 fields
+p07,claude,1,instruction_following,checklist,c4,met,,types as asked
+p07,claude,1,instruction_following,checklist,c5,met,,"price_range ""$$"""
+p07,claude,1,instruction_following,checklist,c6,met,,3 top_dishes
+p07,gemini,1,instruction_following,checklist,c1,met,,only the JSON object; it parses
+p07,gemini,1,instruction_following,checklist,c2,met,,judged from the screenshot
+p07,gemini,1,instruction_following,checklist,c3,met,,exactly the 6 fields
+p07,gemini,1,instruction_following,checklist,c4,met,,types as asked
+p07,gemini,1,instruction_following,checklist,c5,met,,"price_range ""$$"""
+p07,gemini,1,instruction_following,checklist,c6,met,,3 top_dishes
+p08,chatgpt,1,instruction_following,checklist,c1,met,,5 sentences
+p08,chatgpt,1,instruction_following,checklist,c2,met,,starts A B C D E
+p08,chatgpt,1,instruction_following,checklist,c3,not_met,,longest sentence 13 words
+p08,chatgpt,1,instruction_following,checklist,c4,not_met,,
+p08,chatgpt,1,instruction_following,checklist,c5,met,,nothing else
+p08,claude,1,instruction_following,checklist,c1,met,,5 sentences
+p08,claude,1,instruction_following,checklist,c2,met,,starts A B C D E
+p08,claude,1,instruction_following,checklist,c3,met,,longest sentence 11 words
+p08,claude,1,instruction_following,checklist,c4,met,,
+p08,claude,1,instruction_following,checklist,c5,met,,nothing else
+p08,gemini,1,instruction_following,checklist,c1,met,,5 sentences
+p08,gemini,1,instruction_following,checklist,c2,met,,starts A B C D E
+p08,gemini,1,instruction_following,checklist,c3,met,,longest sentence 12 words
+p08,gemini,1,instruction_following,checklist,c4,met,,
+p08,gemini,1,instruction_following,checklist,c5,met,,nothing else
