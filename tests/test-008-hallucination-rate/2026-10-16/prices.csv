@@ -1,0 +1,4 @@
+model,input_usd_per_mtok,output_usd_per_mtok,source_url,checked_on
+chatgpt,2.00,10.00,https://developers.openai.com/api/docs/models/gpt-6-sol,2026-10-09
+claude,4.00,20.00,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-09
+gemini,2.00,10.00,https://ai.google.dev/gemini-api/docs/pricing,2026-10-15

@@ -1,0 +1,4 @@
+model,product,version,api_model,plan,interface,run_start,run_end
+chatgpt,ChatGPT,GPT-6,gpt-6-sol,ChatGPT Plus,chatgpt.com,2026-10-16,2026-10-16
+claude,Claude,Opus 5.5,claude-opus-5-5,Claude Max,claude.ai,2026-10-16,2026-10-16
+gemini,Gemini,4 Argon,gemini-4-argon,Google AI Pro,gemini.google.com,2026-10-16,2026-10-17

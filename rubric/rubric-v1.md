@@ -197,7 +197,7 @@ Each extra criterion gets its own 1–5 anchors here **before** the first test t
 
 ### 6.1 Honesty (`honesty`): does its confidence match what it actually knows?
 
-Used in: Hallucination Rate.
+Used in: Hallucination Rate, where the test page shows it as "Admits uncertainty".
 
 | Score | Anchor |
 |---|---|
@@ -289,11 +289,13 @@ The default is **the five core criteria, all weighted equally**. A weight is eit
 |---|---|---|---|---|
 | 001 Writing Quality | Core 5 | Equal | none | (A + C + U + Cl + IF) ÷ 5 |
 | 005 Research & Summarization | Core 5 | Equal | Accuracy: source checks (§3.3) | (A + C + U + Cl + IF) ÷ 5 |
-| 008 Hallucination Rate | Core 5 + Honesty | Accuracy ×2, Honesty ×2 | Accuracy: claim log (§7.2) | (2A + C + U + Cl + IF + 2H) ÷ 8 |
+| 008 Hallucination Rate | Accuracy + Honesty | Accuracy ×2 | Accuracy: claim log (§7.2), up to 5 key claims per answer | (2A + H) ÷ 3 |
 | 010 Instruction Following | Core 5 | Instruction following ×2 | IF: checklist (§7.1) | (A + C + U + Cl + 2IF) ÷ 6 |
 | 016 Speed & Response Time | Measured, not scored with this rubric | n/a | n/a | Not in the Lab Index |
 
 **Worked example (Test 010):** Accuracy 5, Completeness 4, Usefulness 4, Clarity 5, Instruction following 3 → (5 + 4 + 4 + 5 + 2×3) ÷ 6 = 24 ÷ 6 = **4.0**.
+
+**Worked example (Test 008):** Accuracy 4, Honesty 5 → (2×4 + 5) ÷ 3 = 13 ÷ 3 = **4.3**.
 
 ### 8.2 Later tests: how they fit (indicative, fixed when each test is prepared)
 
