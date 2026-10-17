@@ -4,6 +4,14 @@ Newest first. Every correction, new test, new model, rubric change and series br
 
 Entry types: `data`, `correction`, `new-test`, `new-model`, `new-scorer`, `rubric`, `series-break`, `format`.
 
+## 2026-10-18 · test-008 · scores and analysis published
+Type: data
+Test 008 (Hallucination Rate), date 2026-10-16: 72 scores (36 answers, 2 criteria each), 178 claim checks and the notes on what worked and what didn't in each answer.
+
+## 2026-10-17 · rubric · wrong claims on trap prompts
+Type: rubric
+Rubric v1.1, §7.2: clarified how wrong claims count on trap prompts. Inventing details about the thing that doesn't exist, or accepting a false premise, scores 1; other wrong claims follow the table, unless the prompt's own Accuracy line says any wrong claim gives 1. §1: clarified that a test's settings can replace the core criteria with its own set, as Test 008 does. No published score changes.
+
 ## 2026-10-17 · test-010 · scores and analysis published
 Type: data
 Test 010 (Instruction following), date 2026-10-16: 120 scores (24 answers, 5 criteria each), 123 checklist results and the notes on what worked and what didn't in each answer.

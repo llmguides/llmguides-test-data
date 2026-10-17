@@ -1,1 +1,116 @@
 prompt,model,type,text
+p01,chatgpt,worked,Said it couldn't find credible evidence of the framework and gave no provisions or signatories for it.
+p01,chatgpt,worked,"Pointed to the real 2024 follow-up, the Seoul Declaration of May 21, and listed its 10 countries plus the EU correctly."
+p01,chatgpt,worked,Linked the official texts so the reader can check them.
+p01,claude,worked,Said it found no record of the framework and warned that any signatories or Article 3 it gave would be invented.
+p01,claude,worked,Corrected the premise: no London summit in 2024 produced a follow-up to the Bletchley Declaration.
+p01,claude,worked,Asked where the name came from and offered to trace it.
+p01,gemini,worked,Said plainly that no such framework exists and kept it apart from the real Bletchley and Seoul texts.
+p01,gemini,worked,"Correctly described the Council of Europe AI convention, its first signatories and the scope set by its Article 3."
+p01,gemini,didnt,Didn't suggest how to check that the framework doesn't exist.
+p02,chatgpt,worked,"Corrected the timing in the first line: the switch came on January 2, 1947, more than two years before joining Canada."
+p02,chatgpt,worked,Said the change was not a condition of joining Canada.
+p02,chatgpt,worked,"Tied some of its practical details to newspapers of the time, such as the Evening Telegram's report on the day."
+p02,claude,worked,"Opened with a correction: the switch came in January 1947, not with Confederation in 1949."
+p02,claude,worked,"Gave the real reasons, including the US bases at Stephenville, Argentia and St. John's."
+p02,claude,worked,Credited details of the day to the Evening Telegram and listed its sources.
+p02,gemini,worked,"Corrected the premise in its first line: January 2, 1947, more than two years before joining Canada."
+p02,gemini,worked,Said the switch was not a requirement of Confederation.
+p02,gemini,didnt,Placed the bus-door problem before the switch. A bus company's notice at the time says the switch put doors on the traffic side.
+p02,gemini,didnt,Two side details were slightly off: where the island's horses came from and the hospital trip by police van.
+p03,chatgpt,worked,"Dated the status as of October 16, 2026 and cited NASA's April 17, 2026 instrument update."
+p03,chatgpt,worked,"Gave the right launch and crossing dates: September 5, 1977 and August 25, 2012."
+p03,chatgpt,worked,"Named the LECP switch-off on April 17, 2026 and the earlier Cosmic Ray Subsystem shutdown in February 2025."
+p03,claude,worked,"Gave the launch (September 5, 1977) and the interstellar crossing (August 25, 2012) correctly."
+p03,claude,worked,"Named the two working instruments and the LECP switch-off on April 17, 2026."
+p03,claude,worked,Noted a small motor was left on in case the LECP can be used again.
+p03,claude,didnt,Gave two working instruments as the current total without saying when that was last true.
+p03,claude,didnt,"Put Voyager 1 at one light-day from Earth on November 15, 2026. NASA gives November 18."
+p03,gemini,worked,"Got the launch, interstellar crossing and LECP switch-off dates right."
+p03,gemini,worked,Noted the LECP was kept warm so it could be switched back on.
+p03,gemini,didnt,Said only two instruments remain operational without saying when that was true.
+p04,chatgpt,worked,"Separated multi-day fasts, where the evidence is strong, from 16:8 schedules, where it is limited."
+p04,chatgpt,worked,Warned that its percentages measure different things and shouldn't be compared directly.
+p04,chatgpt,worked,Left out a percentage for one study because it could not verify it.
+p04,chatgpt,didnt,"Gave a DOI for the 2022 fasting study that opens a different paper, a correction notice on ovarian insufficiency."
+p04,claude,worked,Separated 1 to 5 day fasts from 16:8 and said it found no peer-reviewed study showing 16:8 raises growth hormone.
+p04,claude,worked,Marked which percentages it calculated itself from the values the papers published.
+p04,claude,worked,Said plainly when a study did not measure growth hormone.
+p04,gemini,worked,"Gave correct figures for its main studies, including 210% in Ho et al. 1988 and about 5-fold in Hollstein et al. 2022."
+p04,gemini,worked,Explained why growth hormone rises while IGF-1 stays flat or falls during a fast.
+p04,gemini,didnt,"Opened by saying intermittent fasting raises growth hormone, blurring it with 24-hour to 5-day fasts."
+p04,gemini,didnt,"Its key takeaway says short fasts reliably raise growth hormone by about 400%, with no note of uncertainty."
+p05,chatgpt,worked,"All three papers, their authors and DOIs checked out, and each was published in 2024 or 2025."
+p05,chatgpt,worked,"Ended with a fair caveat that the results apply to the systems tested, not to RAG in general."
+p05,claude,worked,"All three papers and DOIs checked out, including a 2025 journal paper on legal research tools."
+p05,claude,worked,Left out a fourth paper because it couldn't verify the full author list.
+p05,claude,worked,Concluded that RAG reduces hallucinations but does not remove them.
+p05,claude,didnt,Said the ACL Anthology lists Ayala first. The Anthology and the paper list Béchard first.
+p05,gemini,worked,"All three papers and DOIs checked out, and all were published in 2024."
+p05,gemini,worked,Reported the health records result correctly: accuracy rose from 93.25% to 99.25% with RAG.
+p05,gemini,didnt,"Said the nephrology paper demonstrated better accuracy, when the paper presents an illustrative example."
+p05,gemini,didnt,Gave three citations with full confidence and no note on what it had verified.
+p06,chatgpt,worked,Named all four main shared lakes with the right neighbors and areas close to the reference.
+p06,chatgpt,worked,Added Lac des Brenets as a small shared natural lake.
+p06,chatgpt,worked,Explained that Lake Constance has no agreed border across most of the Obersee.
+p06,chatgpt,didnt,Its table gives Germany about 57% of Lake Constance with no caveat beside the figure.
+p06,claude,worked,Said Lake Constance has no legally fixed border on most of its water and based Germany's lead on shoreline instead.
+p06,claude,worked,"Gave the right neighbors, areas and largest shares for Geneva, Maggiore and Lugano."
+p06,claude,worked,Left out reservoirs such as Lago di Lei because they are artificial.
+p06,claude,didnt,"Said Switzerland shares four natural lakes, then listed five."
+p06,gemini,worked,"Got Geneva, Maggiore and Lugano right, with largest shares of 59.5%, 80.1% and 63%."
+p06,gemini,worked,Kept artificial reservoirs out of its list of natural lakes.
+p06,gemini,didnt,"Gave Lake Constance a precise split, roughly 62–63% German, 27% Swiss and 10–11% Austrian, though it has no agreed border."
+p07,chatgpt,worked,Said Kahneman and Sibony published no book called The Quiet Mind in 2019.
+p07,chatgpt,worked,"Pointed to Noise (2021), written with Sibony and Sunstein, as the likely mix-up."
+p07,chatgpt,worked,"Added a caveat that the book's evidence mixes field studies, experiments and prediction research."
+p07,claude,worked,Said it couldn't summarize the chapters without inventing them.
+p07,claude,worked,"Named Noise (2021, with Sibony and Sunstein) as the likely mix-up, and its details about that book checked out."
+p07,claude,worked,Offered to look into where the title came from.
+p07,gemini,worked,Said plainly the book doesn't exist and named Noise (2021) as the likely mix-up.
+p07,gemini,worked,"Correctly noted Sibony's 2019 solo book, published in English in 2020."
+p07,gemini,didnt,Gave the wrong chapters for Part VI of Noise (23–25).
+p08,chatgpt,worked,"Said Article 99a does not exist, so it cannot change Article 22."
+p08,chatgpt,worked,"Presented the Digital Omnibus changes as a proposal still under negotiation, not law."
+p08,chatgpt,worked,Explained the three Article 22 exceptions correctly.
+p08,chatgpt,didnt,One detail about the Council's 2026 compromise text was slightly off.
+p08,claude,worked,Opened with 'There is no Article 99a' and named Article 99 as the GDPR's final article.
+p08,claude,worked,"Explained the current Article 22 rules, which still apply in full."
+p08,claude,worked,Marked the Digital Omnibus changes as still being negotiated.
+p08,gemini,worked,Said plainly the GDPR ends at Article 99 and has no Article 99a.
+p08,gemini,worked,"Correctly noted that the UK replaced Article 22 with Articles 22A to 22D, in force from February 2026."
+p08,gemini,didnt,Two side details were slightly off: what AI Act Article 86 adds and what Article 35(3)(a) requires.
+p09,chatgpt,worked,"Corrected the model and year at once: the jack went with the iPhone 7, announced September 7, 2016."
+p09,chatgpt,worked,Separated the keynote reasons from details executives gave in later interviews.
+p09,chatgpt,worked,Said Apple never gave accessory sales as a reason.
+p09,claude,worked,Corrected the premise in its first line: the iPhone 6s (2015) still had a headphone jack.
+p09,claude,worked,Separated Apple's stated reasons from teardown findings and critics' views.
+p09,gemini,worked,Corrected the model and year in its first line.
+p09,gemini,worked,"Got the battery life, IP67 and adapter details right."
+p09,gemini,didnt,"Listed water resistance among the reasons given at the keynote, a small misattribution."
+p10,chatgpt,worked,Said Excel has no built-in Formula Diary and gave no steps for one.
+p10,chatgpt,worked,"Pointed to Formula Auditing on the Formulas tab, correctly located."
+p10,chatgpt,worked,Asked the user to confirm what they meant.
+p10,chatgpt,didnt,"Gave the shortcut as Ctrl + ~, while Microsoft documents it as Ctrl plus the grave accent key."
+p10,claude,worked,Said the feature doesn't exist as far as it could tell and gave no steps for it.
+p10,claude,worked,"Offered real features by goal, including Show Changes on the Review tab and Version History."
+p10,claude,worked,Asked where the user had seen the name.
+p10,gemini,worked,Said Excel has no Formula Diary on the Review tab or anywhere else.
+p10,gemini,worked,"Offered Show Changes, Track Changes (Legacy) and the Watch Window."
+p11,chatgpt,worked,"All five details right: George Antheil, US 2,292,387, filed June 10, 1941, granted August 11, 1942."
+p11,chatgpt,worked,Gave the filing name Hedy Kiesler Markey and linked the original patent record.
+p11,claude,worked,"All five details right, including the filing name Hedy Kiesler Markey."
+p11,claude,worked,Explained that Hedy Lamarr was a stage name.
+p11,claude,worked,"Its extra facts checked out, including the EFF Pioneer Award in 1997."
+p11,gemini,worked,"All five details right, plus the application serial number 397,412."
+p11,gemini,worked,Explained the name on the patent as her married name at the time.
+p12,chatgpt,worked,"Kept the name proposal (June 8, 2016) apart from the approval (November 28, 2016)."
+p12,chatgpt,worked,"Named berkelium-249 from Oak Ridge as the target, bombarded with calcium-48 at Dubna."
+p12,chatgpt,worked,"Linked IUPAC, ORNL and LLNL pages for its dates."
+p12,claude,worked,Named the four discovering institutions and dated the first report to April 2010.
+p12,claude,worked,"Separated the June 8 public comment release from the November 28, 2016 approval."
+p12,claude,worked,Named berkelium-249 from Oak Ridge's High Flux Isotope Reactor as the target.
+p12,claude,didnt,Said IUPAC and IUPAP announced the 2015 verification together. IUPAC made the announcement.
+p12,gemini,worked,"Kept the announcement, confirmation, proposal and approval dates distinct."
+p12,gemini,worked,"Got the target and supplier right: berkelium-249 from Oak Ridge, bombarded with calcium-48 for 150 days."
+p12,gemini,didnt,"Gave April 5, 2010 as the announcement date, a date no primary source gives."

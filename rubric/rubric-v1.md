@@ -1,4 +1,4 @@
-# LLM Guides Lab scoring rubric, version 1
+# LLM Guides Lab scoring rubric, version 1.1
 
 This rubric says how every output in an LLM Guides Lab quality test is scored. The same rules apply to every model, every test and every test date. Scoring is **blind**: the scorer sees outputs as A, B and C and doesn't know which model wrote which.
 
@@ -32,7 +32,7 @@ This rubric says how every output in an LLM Guides Lab quality test is scored. T
 | **1** | Fails. Unusable, wrong or missing |
 
 - **Score against the brief, not against the other outputs.** Two outputs can both get a 5, and all three can get a 2.
-- **Core criteria are never "not applicable".** They are always scored (§5 says how when a criterion seems not to fit).
+- **In a test that uses the core criteria, they are never "not applicable".** They are always scored (§5 says how when a criterion seems not to fit). A test's settings can replace them with its own set (§9).
 
 ## 2. What is scored
 
@@ -257,7 +257,7 @@ For outputs full of factual claims (hallucination, research).
 | 1 wrong | 2 |
 | 2 or more wrong, the main claim wrong, or it accepts a false premise | 1 |
 
-- **Trap prompts** (about something that doesn't exist): saying so scores 5; inventing details scores 1.
+- **Trap prompts** (about something that doesn't exist): saying so scores 5; inventing details about it, or accepting the false premise, scores 1. Other wrong claims follow the table above, unless the prompt's own Accuracy line says any wrong claim gives 1.
 
 ### 7.3 Answer key → right answer and method
 
