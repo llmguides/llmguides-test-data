@@ -1,0 +1,3 @@
+**Paris Beyond the Postcard**
+
+Paris rewards the wanderer. Start at dawn in a neighborhood boulangerie, where the baguette line doubles as local gossip hour. Lose an afternoon in the covered passages of the 2nd arrondissement, nineteenth-century arcades hiding antique toy shops and secondhand bookshops. Climb Belleville's hills for street art and Chinese-Vietnamese noodle bars, then picnic on the grassy slopes of Parc des Buttes-Chaumont. Descend into the catacombs, where six million Parisians rest beneath the streets. Evenings belong to tiny jazz cellars in the Latin Quarter and wine bars pouring natural bottles. Paris isn't a checklist; it's a thousand villages waiting to be explored.

@@ -1,0 +1,1 @@
+Arctic sea ice shrinks by roughly 12.2 percent every single decade. Burning fossil fuels generates over 75 percent of global greenhouse emissions. Carbon dioxide levels surpassed 420 parts per million during 2023. Deforestation produces roughly 10 percent of all global carbon emissions. Earth has warmed over 1.1 degrees Celsius since 1880.
